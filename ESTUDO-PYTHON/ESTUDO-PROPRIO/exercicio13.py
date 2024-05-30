@@ -17,7 +17,7 @@ print("serviço interessante.")
 time.sleep(1)
 print("Em breve teremos mais serviços a disposição")
 time.sleep(2)
-nomes = ["Silas", "Moral", "Mona","Lavi", "", "", ""]
+nomes = ["Alex", "andre   ", "Vana","Ilma   ", "", "", ""]
 if(num == 1):
 
     ind = int(input("Informe o índice: "))
