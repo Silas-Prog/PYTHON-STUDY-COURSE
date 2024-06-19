@@ -1,0 +1,6 @@
+dias_alugados = int(input("Informe a quantos dias o veiculo está alugado: "))
+km_percorridos = int(input("Informe quantos quilometros foram percorridos pelo veiculo alugado: "))
+valor_diario = float(input("Informe o valor diario do aluguel: "))
+valor_km = float(input("Informe o valor por quilometro percorrido: "))
+valor_total = (dias_alugados * valor_diario) + (km_percorridos * valor_km)
+print("O valor total, visto que voce utilizou o vaiculo por %i dias e %fkm é de %.2f reais." % (dias_alugados, km_percorridos, valor_total))

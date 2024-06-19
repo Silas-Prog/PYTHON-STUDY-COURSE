@@ -1,0 +1,46 @@
+1. abs(x): Retorna o valor absoluto de um número.
+   - Exemplo: abs(-5) retorna 5.
+
+2. len(s): Retorna o comprimento (número de itens) de um objeto.
+   - Exemplo: len("python") retorna 6.
+
+3. print(*objects): Imprime os objetos passados como argumento.
+   - Exemplo: print("Hello, World!") imprime Hello, World!.
+
+4. sum(iterable, start=0): Retorna a soma dos itens em um iterável, opcionalmente começando com um valor inicial.
+   - Exemplo: sum([1, 2, 3]) retorna 6.
+
+5. min(iterable, *[, default, key]): Retorna o menor item em um iterável.
+   - Exemplo: min([1, 2, 3]) retorna 1.
+
+6. max(iterable, *[, default, key]): Retorna o maior item em um iterável.
+   - Exemplo: max([1, 2, 3]) retorna 3.
+
+7. sorted(iterable, *, key=None, reverse=False): Retorna uma nova lista ordenada a partir dos itens de um iterável.
+   - Exemplo: sorted([3, 1, 2]) retorna [1, 2, 3].
+
+8. round(number, ndigits=None): Retorna o número arredondado para ndigits dígitos decimais.
+   - Exemplo: round(3.14159, 2) retorna 3.14.
+
+9. type(object): Retorna o tipo do objeto.
+   - Exemplo: type(5) retorna <class 'int'>.
+
+10. input(prompt=None): Lê uma linha da entrada (teclado).
+    - Exemplo: input("Enter your name: ") espera o usuário digitar um nome.
+
+11. str(object): Retorna uma representação em string de um objeto.
+    - Exemplo: str(123) retorna '123'.
+
+12. int(x, base=10): Converte um número ou string para um inteiro.
+    - Exemplo: int("123") retorna 123.
+
+13. float(x): Converte um número ou string para um número de ponto flutuante.
+    - Exemplo: float("3.14") retorna 3.14.
+
+14. list(iterable): Converte um iterável para uma lista.
+    - Exemplo: list("abc") retorna ['a', 'b', 'c'].
+
+15. dict(**kwargs): Cria um dicionário.
+    - Exemplo: dict(a=1, b=2) retorna {'a': 1, 'b': 2}.
+
+16. map(): Ela executa uma função em cada unidade da lista[Ex: funcaolambda]
