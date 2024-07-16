@@ -12,6 +12,9 @@ aluno.append((nota1+nota2+nota3+nota4)/4)
 print(aluno)
 
 
+
+
+
 lista = []
 n = 0
 while n < 5:
